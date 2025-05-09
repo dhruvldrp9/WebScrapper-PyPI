@@ -1,3 +1,17 @@
+"""
+DEPRECATED: This monolithic script has been refactored into a proper Python package.
+
+Please use the new package structure by importing from the 'webscraper' package:
+
+    from webscraper import WebScraper
+
+Or using the command line interface:
+
+    webscraper --url https://example.com
+
+This script is kept for reference only and will be removed in a future version.
+"""
+
 import os
 import requests
 from bs4 import BeautifulSoup
